@@ -1,0 +1,1 @@
+C:\Users\PC\OneDrive\Desktop\VR\VR_neu\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\FramePacing\UnitySwappyWrapper.h
