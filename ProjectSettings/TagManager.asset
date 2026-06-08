@@ -12,6 +12,7 @@ TagManager:
   - Flame
   - Trail
   - Radkreuz
+  - Jack
   layers:
   - Default
   - TransparentFX
