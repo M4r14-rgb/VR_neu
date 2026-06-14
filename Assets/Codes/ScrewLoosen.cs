@@ -4,7 +4,9 @@ public class ScrewLoosen : MonoBehaviour
 {
     private bool isLoosened = false;
 
-    public Vector3 loosenMove = new Vector3(0, 0, 0.05f);
+    public Vector3 loosenMove = new Vector3(-0.006f, 0, 0);
+
+    public MaterialSwitcher materialSwitcher;
 
     public void LoosenScrew()
     {
@@ -13,6 +15,9 @@ public class ScrewLoosen : MonoBehaviour
         transform.position += loosenMove;
 
         isLoosened = true;
+
+        if (materialSwitcher != null)
+            materialSwitcher.SetNormalMaterial();
 
         Debug.Log("Schraube kommt raus: " + gameObject.name);
     }
