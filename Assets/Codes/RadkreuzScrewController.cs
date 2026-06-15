@@ -5,6 +5,8 @@ public class RadkreuzScrewController : MonoBehaviour
 {
     public XRNode controllerHand = XRNode.RightHand;
 
+    public AudioSource audioSource;
+
     private ScrewLoosen currentScrew;
     private bool wasTriggerPressed = false;
 
@@ -30,6 +32,9 @@ public class RadkreuzScrewController : MonoBehaviour
             Debug.Log("Keine Schraube in Reichweite");
             return;
         }
+
+        if (audioSource != null)
+            audioSource.Play();
 
         currentScrew.LoosenScrew();
     }

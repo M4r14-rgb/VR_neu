@@ -5,6 +5,8 @@ public class ScrewTightenController : MonoBehaviour
 {
     public XRNode controllerHand = XRNode.RightHand;
 
+    public AudioSource audioSource;
+
     private ScrewTighten currentScrew;
     private bool wasTriggerPressed = false;
 
@@ -30,6 +32,9 @@ public class ScrewTightenController : MonoBehaviour
             Debug.Log("Keine Schraube zum Festziehen in Reichweite");
             return;
         }
+
+        if (audioSource != null && audioSource.clip != null)
+            audioSource.PlayOneShot(audioSource.clip);
 
         currentScrew.TightenScrew();
     }
