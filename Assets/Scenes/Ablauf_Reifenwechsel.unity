@@ -1962,7 +1962,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: fa01bfd5f81105c49a0ee42b613e9c9a, type: 3}
   m_Resource: {fileID: 8300000, guid: fa01bfd5f81105c49a0ee42b613e9c9a, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.3
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4319,6 +4319,107 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 509281787}
   m_CullTransparentMesh: 1
+--- !u!1001 &512513150
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e4a784133223bc549b154764e3f5b5e0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4a784133223bc549b154764e3f5b5e0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4a784133223bc549b154764e3f5b5e0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4a784133223bc549b154764e3f5b5e0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.052
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4a784133223bc549b154764e3f5b5e0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2801901
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4a784133223bc549b154764e3f5b5e0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.986
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4a784133223bc549b154764e3f5b5e0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4a784133223bc549b154764e3f5b5e0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4a784133223bc549b154764e3f5b5e0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4a784133223bc549b154764e3f5b5e0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4a784133223bc549b154764e3f5b5e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4a784133223bc549b154764e3f5b5e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4a784133223bc549b154764e3f5b5e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6202240298973631283, guid: e4a784133223bc549b154764e3f5b5e0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.8808
+      objectReference: {fileID: 0}
+    - target: {fileID: -6202240298973631283, guid: e4a784133223bc549b154764e3f5b5e0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6202240298973631283, guid: e4a784133223bc549b154764e3f5b5e0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.18614215
+      objectReference: {fileID: 0}
+    - target: {fileID: -4613250130638151830, guid: e4a784133223bc549b154764e3f5b5e0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.8808
+      objectReference: {fileID: 0}
+    - target: {fileID: -4613250130638151830, guid: e4a784133223bc549b154764e3f5b5e0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.028
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e4a784133223bc549b154764e3f5b5e0, type: 3}
+      propertyPath: m_Name
+      value: Halterung_Akkuschrauber
+      objectReference: {fileID: 0}
+    - target: {fileID: 3525059204830493653, guid: e4a784133223bc549b154764e3f5b5e0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.8808
+      objectReference: {fileID: 0}
+    - target: {fileID: 3525059204830493653, guid: e4a784133223bc549b154764e3f5b5e0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3525059204830493653, guid: e4a784133223bc549b154764e3f5b5e0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.12682514
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e4a784133223bc549b154764e3f5b5e0, type: 3}
 --- !u!1 &522720604
 GameObject:
   m_ObjectHideFlags: 0
@@ -5023,7 +5124,7 @@ PrefabInstance:
     - target: {fileID: 6279181318600402971, guid: 8e2e175e346a0d34aa187f7584e1f01c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 6125db37fb54a4b15838d52b52aad792, type: 2}
+      objectReference: {fileID: 2100000, guid: 2211aa1d61fd79e49a5ae017e09f71d2, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8867,18 +8968,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1853082595}
-        m_TargetAssemblyTypeName: UIButtonSound, Assembly-CSharp
-        m_MethodName: PlayClickSound
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
 --- !u!114 &923990119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10171,7 +10260,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Nimm den Drehmomentschl\xFCssel auf."
+  m_text: "Hinweis: Die Radschrauben m\xFCssen mit 90 - 120 Nm angezogen werden.
+    Das korrekte Drehmoment kannst du in der Praxis mit einem Drehmomentschl\xFCssel
+    einstellen und \xFCberpr\xFCfen."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12226,7 +12317,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: fa01bfd5f81105c49a0ee42b613e9c9a, type: 3}
   m_Resource: {fileID: 8300000, guid: fa01bfd5f81105c49a0ee42b613e9c9a, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.3
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -12469,7 +12560,7 @@ Transform:
   m_GameObject: {fileID: 1125417266}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.478, y: 0.3293, z: 3.747}
+  m_LocalPosition: {x: -0.42, y: 0.27, z: 3.635}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14017,8 +14108,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
@@ -14862,7 +14953,7 @@ PrefabInstance:
     - target: {fileID: 6279181318600402971, guid: ea7c613ba79bda04ba2c82994884772d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 6125db37fb54a4b15838d52b52aad792, type: 2}
+      objectReference: {fileID: 2100000, guid: 2211aa1d61fd79e49a5ae017e09f71d2, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15459,7 +15550,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: fa01bfd5f81105c49a0ee42b613e9c9a, type: 3}
   m_Resource: {fileID: 8300000, guid: fa01bfd5f81105c49a0ee42b613e9c9a, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.3
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -17762,7 +17853,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1909510863}
+      - m_Target: {fileID: 1853082595}
         m_TargetAssemblyTypeName: UIButtonSound, Assembly-CSharp
         m_MethodName: PlayClickSound
         m_Mode: 1
@@ -18731,39 +18822,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 00e1979aab0b93d4486c57ce8dc5206c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.041
+      value: 0.031
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 00e1979aab0b93d4486c57ce8dc5206c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.573
+      value: -2.480692
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 00e1979aab0b93d4486c57ce8dc5206c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.70501024
+      value: -0.011055769
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 00e1979aab0b93d4486c57ce8dc5206c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7091794
+      value: -0.9999263
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 00e1979aab0b93d4486c57ce8dc5206c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0035035985
+      value: -0.00010490033
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 00e1979aab0b93d4486c57ce8dc5206c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0035944015
+      value: -0.0050183614
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 00e1979aab0b93d4486c57ce8dc5206c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -89.333
+      value: 1.267
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 00e1979aab0b93d4486c57ce8dc5206c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -239.575
+      value: -180.575
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 00e1979aab0b93d4486c57ce8dc5206c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 239.568
+      value: 179.982
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 00e1979aab0b93d4486c57ce8dc5206c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 00e1979aab0b93d4486c57ce8dc5206c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -19815,7 +19910,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: fa01bfd5f81105c49a0ee42b613e9c9a, type: 3}
   m_Resource: {fileID: 8300000, guid: fa01bfd5f81105c49a0ee42b613e9c9a, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.3
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -22456,7 +22551,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 2ce87c0c330502f4fa53f4588d9ba7e7, type: 3}
   m_Resource: {fileID: 8300000, guid: 2ce87c0c330502f4fa53f4588d9ba7e7, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -23120,7 +23215,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: fa01bfd5f81105c49a0ee42b613e9c9a, type: 3}
   m_Resource: {fileID: 8300000, guid: fa01bfd5f81105c49a0ee42b613e9c9a, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.3
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -27691,7 +27786,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: fa01bfd5f81105c49a0ee42b613e9c9a, type: 3}
   m_Resource: {fileID: 8300000, guid: fa01bfd5f81105c49a0ee42b613e9c9a, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -28043,7 +28138,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: fa01bfd5f81105c49a0ee42b613e9c9a, type: 3}
   m_Resource: {fileID: 8300000, guid: fa01bfd5f81105c49a0ee42b613e9c9a, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -28227,7 +28322,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: fa01bfd5f81105c49a0ee42b613e9c9a, type: 3}
   m_Resource: {fileID: 8300000, guid: fa01bfd5f81105c49a0ee42b613e9c9a, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -28967,7 +29062,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: fa01bfd5f81105c49a0ee42b613e9c9a, type: 3}
   m_Resource: {fileID: 8300000, guid: fa01bfd5f81105c49a0ee42b613e9c9a, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -29107,7 +29202,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: fa01bfd5f81105c49a0ee42b613e9c9a, type: 3}
   m_Resource: {fileID: 8300000, guid: fa01bfd5f81105c49a0ee42b613e9c9a, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -29214,3 +29309,4 @@ SceneRoots:
   - {fileID: 781939131}
   - {fileID: 1909510865}
   - {fileID: 1853082597}
+  - {fileID: 512513150}
