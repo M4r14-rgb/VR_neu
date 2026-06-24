@@ -1,0 +1,30 @@
+[33m0a86fd17[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32m14062026_Reifen_Abnehmbar[m[33m, [m[1;31morigin/Stand_10062026_Akkuschrauber[m[33m, [m[1;31morigin/14062026_Reifen_Abnehmbar[m[33m, [m[1;32mStand_10062026_Akkuschrauber[m[33m)[m HEAD@{0}: checkout: moving from Stand_10062026_Akkuschrauber to 14062026_Reifen_Abnehmbar
+[33m0a86fd17[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32m14062026_Reifen_Abnehmbar[m[33m, [m[1;31morigin/Stand_10062026_Akkuschrauber[m[33m, [m[1;31morigin/14062026_Reifen_Abnehmbar[m[33m, [m[1;32mStand_10062026_Akkuschrauber[m[33m)[m HEAD@{1}: checkout: moving from Stand_03062026 to Stand_10062026_Akkuschrauber
+[33m05d9dd2a[m[33m ([m[1;31morigin/Stand_03062026[m[33m, [m[1;32mStand_03062026[m[33m)[m HEAD@{2}: checkout: moving from Stand_10062026 to Stand_03062026
+[33m5a556f82[m[33m ([m[1;31morigin/Stand_10062026[m[33m, [m[1;32mStand_10062026[m[33m)[m HEAD@{3}: reset: moving to HEAD
+[33m5a556f82[m[33m ([m[1;31morigin/Stand_10062026[m[33m, [m[1;32mStand_10062026[m[33m)[m HEAD@{4}: checkout: moving from Stand_08062026_Wagenheber to Stand_10062026
+[33m8b7f412f[m[33m ([m[1;31morigin/Stand_08062026_Wagenheber[m[33m, [m[1;32mStand_08062026_Wagenheber[m[33m)[m HEAD@{5}: checkout: moving from Stand_04062026 to Stand_08062026_Wagenheber
+[33m0611c2fd[m[33m ([m[1;31morigin/Stand_04062026[m[33m, [m[1;32mStand_04062026[m[33m)[m HEAD@{6}: checkout: moving from Stand_04062026_ButtonDebug to Stand_04062026
+[33mec60cd81[m[33m ([m[1;31morigin/Stand_04062026_ButtonDebug[m[33m, [m[1;32mStand_04062026_ButtonDebug[m[33m)[m HEAD@{7}: checkout: moving from main to Stand_04062026_ButtonDebug
+[33m39e912ec[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{8}: checkout: moving from Stand_04062026_ButtonDebug to main
+[33mec60cd81[m[33m ([m[1;31morigin/Stand_04062026_ButtonDebug[m[33m, [m[1;32mStand_04062026_ButtonDebug[m[33m)[m HEAD@{9}: reset: moving to HEAD
+[33mec60cd81[m[33m ([m[1;31morigin/Stand_04062026_ButtonDebug[m[33m, [m[1;32mStand_04062026_ButtonDebug[m[33m)[m HEAD@{10}: reset: moving to ec60cd81
+[33mec60cd81[m[33m ([m[1;31morigin/Stand_04062026_ButtonDebug[m[33m, [m[1;32mStand_04062026_ButtonDebug[m[33m)[m HEAD@{11}: commit: Schraubenlogik
+[33mea4347be[m HEAD@{12}: checkout: moving from main to Stand_04062026_ButtonDebug
+[33m39e912ec[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{13}: checkout: moving from Stand_04062026 to main
+[33m0611c2fd[m[33m ([m[1;31morigin/Stand_04062026[m[33m, [m[1;32mStand_04062026[m[33m)[m HEAD@{14}: checkout: moving from main to Stand_04062026
+[33m39e912ec[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{15}: checkout: moving from Stand_04062026_ButtonDebug to main
+[33mea4347be[m HEAD@{16}: checkout: moving from ablauf_reifenwechsel to Stand_04062026_ButtonDebug
+[33m0cdf959e[m[33m ([m[1;31morigin/ablauf_reifenwechsel[m[33m, [m[1;32mablauf_reifenwechsel[m[33m)[m HEAD@{17}: checkout: moving from main to ablauf_reifenwechsel
+[33m39e912ec[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{18}: reset: moving to HEAD
+[33m39e912ec[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{19}: pull --ff --recurse-submodules --progress origin: Fast-forward
+[33m99265559[m HEAD@{20}: checkout: moving from Stand_03062026 to main
+[33m05d9dd2a[m[33m ([m[1;31morigin/Stand_03062026[m[33m, [m[1;32mStand_03062026[m[33m)[m HEAD@{21}: checkout: moving from ablauf_reifenwechsel to Stand_03062026
+[33m0cdf959e[m[33m ([m[1;31morigin/ablauf_reifenwechsel[m[33m, [m[1;32mablauf_reifenwechsel[m[33m)[m HEAD@{22}: reset: moving to HEAD
+[33m0cdf959e[m[33m ([m[1;31morigin/ablauf_reifenwechsel[m[33m, [m[1;32mablauf_reifenwechsel[m[33m)[m HEAD@{23}: commit: Update Ablauf_Reifenwechsel.unity
+[33ma3c5511a[m HEAD@{24}: commit: Update project settings
+[33m99265559[m HEAD@{25}: reset: moving to origin/ablauf_reifenwechsel
+[33m5e53c30d[m HEAD@{26}: commit: Remove Library_backup from git
+[33mc34624de[m HEAD@{27}: commit: Flow
+[33m99265559[m HEAD@{28}: checkout: moving from main to ablauf_reifenwechsel
+[33m99265559[m HEAD@{29}: commit: Materialien

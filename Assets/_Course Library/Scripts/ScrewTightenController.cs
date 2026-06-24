@@ -6,6 +6,8 @@ public class ScrewTightenController : MonoBehaviour
     public XRNode controllerHand = XRNode.RightHand;
 
     public AudioSource audioSource;
+    public TireLockController tireLockController;
+    private int tightenedCount = 0;
 
     private ScrewTighten currentScrew;
     private bool wasTriggerPressed = false;
@@ -37,6 +39,15 @@ public class ScrewTightenController : MonoBehaviour
             audioSource.PlayOneShot(audioSource.clip);
 
         currentScrew.TightenScrew();
+
+        tightenedCount++;
+
+        Debug.Log("Neue Schrauben fest: " + tightenedCount);
+
+        if (tightenedCount >= 1 && tireLockController != null)
+        {
+            tireLockController.LockTire();
+        }
     }
 
     private void OnTriggerEnter(Collider other)

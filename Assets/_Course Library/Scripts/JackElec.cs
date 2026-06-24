@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ElectricJack : MonoBehaviour
+public class JackElec : MonoBehaviour
 {
     public Transform autoTransform;
 

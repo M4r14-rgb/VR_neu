@@ -1,17 +1,16 @@
 using UnityEngine;
 using UnityEngine.XR;
 
-public class JackTriggerButton : MonoBehaviour
+public class JackLowerTriggerButton : MonoBehaviour
 {
-    public ElectricJackController electricJackController;
+    public ElectricJack electricJack;
 
     private bool isHovering = false;
     private bool wasPressed = false;
 
     private void Update()
     {
-        if (!isHovering)
-            return;
+        if (!isHovering) return;
 
         InputDevice device = InputDevices.GetDeviceAtXRNode(XRNode.RightHand);
 
@@ -19,8 +18,10 @@ public class JackTriggerButton : MonoBehaviour
         {
             if (isPressed && !wasPressed)
             {
-                if (electricJackController != null)
-                    electricJackController.LiftCar();
+                Debug.Log("Runter-Knopf gedrückt");
+
+                if (electricJack != null)
+                    electricJack.LowerCar();
             }
 
             wasPressed = isPressed;
@@ -29,17 +30,18 @@ public class JackTriggerButton : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.name.Contains("Hand") || other.name.Contains("Controller"))
-        {
-            isHovering = true;
-        }
+        if (gameObject.name != "Knopf_unten")
+            return;
+
+        isHovering = true;
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.name.Contains("Hand") || other.name.Contains("Controller"))
-        {
-            isHovering = false;
-        }
+        if (gameObject.name != "Knopf_unten")
+            return;
+
+        isHovering = false;
+        wasPressed = false;
     }
 }

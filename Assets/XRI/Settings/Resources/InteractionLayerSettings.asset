@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LayerNames:
   - Default
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - ScrewPoint_1
+  - ScrewPoint_2
+  - ScrewPoint_3
+  - ScrewPoint_4
+  - ScrewPoint_5
+  - Reifen_single
+  - Reifen_zum_Wechseln
   - 
   - 
   - 

@@ -13,6 +13,7 @@ TagManager:
   - Trail
   - Radkreuz
   - Jack
+  - Controller
   layers:
   - Default
   - TransparentFX
